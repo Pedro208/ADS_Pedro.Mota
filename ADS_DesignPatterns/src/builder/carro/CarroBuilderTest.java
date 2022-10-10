@@ -1,5 +1,4 @@
 package builder.carro;
-
 class CarroBuilderTest {
 
 	void deveContruirUmCarroPeloBuilder() {
