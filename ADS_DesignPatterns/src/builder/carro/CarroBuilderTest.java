@@ -1,12 +1,7 @@
 package builder.carro;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Test;
-
 class CarroBuilderTest {
 
-	@Test
 	void deveContruirUmCarroPeloBuilder() {
 		Porta portaMotorista = new Porta();
 		Porta portaPassageiro = new Porta();
