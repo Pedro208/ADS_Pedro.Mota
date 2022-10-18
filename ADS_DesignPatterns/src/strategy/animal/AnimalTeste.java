@@ -22,7 +22,7 @@ public class AnimalTeste {
 
         System.out.println(listaAniamais);
 
-        listaAniamais.sort();
+        listaAniamais.sort(new Comparador);
 
 
     }
