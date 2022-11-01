@@ -11,7 +11,7 @@ class ArtigoTest {
 
         Artigo artigo = new Artigo();
 
-        gerenteDeSeguranca.setUsuarioCorrente("AUtOR");
+        gerenteDeSeguranca.setUsuarioCorrente("AUTOR");
         artigo.publicar();
 
         assertEquals("REVISANDO", artigo.getEstado());
